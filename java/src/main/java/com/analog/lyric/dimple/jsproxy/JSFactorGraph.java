@@ -358,7 +358,6 @@ public class JSFactorGraph extends JSNode<FactorGraph>
 	 * Internal methods
 	 */
 	
-	@SuppressWarnings("unchecked")
 	JSNode<?> wrap(INode node)
 	{
 		JSNode<?> jsnode = _proxyCache.getIfPresent(node);
@@ -394,7 +393,6 @@ public class JSFactorGraph extends JSNode<FactorGraph>
 	 * Private methods
 	 */
 	
-	@SuppressWarnings("null")
 	private JSFactorFunctionFactory functions()
 	{
 		DimpleApplet applet = _applet;

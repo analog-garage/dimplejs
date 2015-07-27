@@ -121,7 +121,6 @@ public class JSFactorFunctionFactory extends JSProxyObjectWithApplet<FactorFunct
 	 * @since 0.07
 	 * @see #create(String)
 	 */
-	@SuppressWarnings("unchecked")
 	public JSFactorFunction create(String name, Object parameters)
 	{
 		Map<String,Object> parameterMap = convertParametersToMap(_applet, parameters);

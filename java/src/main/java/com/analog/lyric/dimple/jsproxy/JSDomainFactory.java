@@ -52,7 +52,6 @@ public class JSDomainFactory
 	/**
 	 * For tests purposes only.
 	 */
-	@SuppressWarnings("null")
 	@Internal
 	public JSDomainFactory()
 	{
